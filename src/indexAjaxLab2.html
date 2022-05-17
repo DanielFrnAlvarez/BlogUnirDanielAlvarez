@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/media/tab_icon.svg">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <script src="./utils/labAjax.js"></script>
+    <title>Lab2 Javascript</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="title_container">
+            <h1 class="mb-0">Laboratorio 2 Parte Javascript</h1>
+        </div>
+    </header>
+
+    <main id="home_section">
+        <section class="main_section">
+            <div class="home_section">
+                <div class="home_body_container mt-2">
+                    <div class="">
+                        <p id="url_text_div"></p>
+                    </div>
+                </div>
+            </div>
+            <input type="text" id="url_input" class="p-2 w-100" placeholder="Ingresa un recurso web">
+            <button class="button ms-3 p-2 rounded mt-3" id="which-vowel-button" onclick="load_content()">Hacer petición</button>
+            <div id="" class="">
+                <div class="mt-4">
+                    <div class="d-flex flex-column">
+                        <h3 class="mb-0 mt-4 text-center color-goldenrod">Estado de carga</h3>
+                        <p id="state_container"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="" class="">
+                <div class="mt-4">
+                    <div class="d-flex flex-column">
+                        <h3 class="mb-0 mt-4 text-center color-goldenrod">Contenido del archivo</h3>
+                        <p id="content_container"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="" class="">
+                <div class="mt-4">
+                    <div class="d-flex flex-column">
+                        <h3 class="mb-0 mt-4 text-center color-goldenrod">Contenido de las cabeceras</h3>
+                        <p id="headers_container"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="" class="">
+                <div class="mt-4">
+                    <div class="d-flex flex-column">
+                        <h3 class="mb-0 mt-4 text-center color-goldenrod">Código  de estado.</h3>
+                        <p id="status_container"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

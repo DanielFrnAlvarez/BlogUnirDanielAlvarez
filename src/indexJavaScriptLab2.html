@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/media/tab_icon.svg">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <script src="./utils/labJavascript.js"></script>
+    <title>Lab2 Javascript</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="title_container">
+            <h1 class="mb-0">Laboratorio 2 Parte Javascript</h1>
+        </div>
+    </header>
+
+    <main id="home_section">
+        <section class="main_section">
+            <div class="home_section">
+                <div class="home_title_container">
+                    <h3 class="color-goldenrod">Palindromo</h3>
+                </div>
+                <div class="home_body_container mt-2">
+                    <div class="">
+                        <p class="text_container">Presiona el boton para saber si el texto es un palindromo</p>
+                        <input type="text" id="palindrome-input" class="p-2" placeholder="Ingresa una palabra">
+                        <button class="button ms-3 p-2 rounded" id="palindrome-button" onclick="palindromeFunc()">check</button>
+                        <p id="palindrome-message"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="" class="">
+                <div class="mt-4">
+                    <div class="d-flex flex-column">
+                        <h3 class="mb-0 mt-4 text-center color-goldenrod">Identificar el número mayor</h3>
+                        <p class="text_container">Presiona el boton para saber si cúal número es mayor</p>
+                    </div>
+                    <input type="number" id="number1-input" class="p-2" placeholder="Ingresa un número">
+                    <input type="number" id="number2-input" class="p-2" placeholder="Ingresa un número">
+                    <button class="button ms-3 p-2 rounded" id="number-button" onclick="greaterFunc()">check</button>
+                    <p id="greater-message"></p>
+                </div>
+            </div>
+            <div id="" class="">
+                <div class="mt-4">
+                    <div class="d-flex flex-column">
+                        <h3 class="mb-0 mt-4 text-center color-goldenrod">Analizador de vocales</h3>
+                        <p>Escribe una palabra o frase y da click en los botones para contar las vocales o saber las vocales que aparecen en el texto</p>
+                    </div>
+                    <input type="text" id="vowel-input" class="p-2 w-50" placeholder="Ingresa una palabra o frase">
+                    <button class="button ms-3 p-2 rounded" id="which-vowel-button" onclick="whichVowelFunc()">Cuales vocales hay</button>
+                    <button class="button ms-3 p-2 rounded" id="count-vowel-button" onclick="countVowelFunc()">Contador de vocales</button>
+                </div>
+                <p id="which-vowels-message"></p>
+                <p id="counter-vowels-message"></p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

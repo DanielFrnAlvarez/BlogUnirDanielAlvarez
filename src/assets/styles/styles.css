@@ -11,6 +11,19 @@ body{
 .row{
     width: 100%;
 }
+
+.p-1{
+    padding: 0.25rem;
+}
+.p-2{
+    padding: 0.5rem;
+}
+.p-3{
+    padding: 1rem;
+}
+.p-4{
+    padding: 1.5rem;
+}
 .m-0{
     margin: 0px;
 }
@@ -31,6 +44,9 @@ body{
 }
 .mb-4{
     margin-bottom: 1.5rem;
+}
+.ms-3{
+    margin-left: 1rem;
 }
 .d-flex{
     display: flex;
@@ -65,6 +81,9 @@ body{
 .rounded{
     border-radius: 1rem;
 }
+.w-50{
+    width: 50%;
+}
 .w-100{
     width: 100%;
 }
@@ -76,6 +95,14 @@ body{
 }
 .color-goldenrod{
     color: goldenrod;
+}
+.button{
+    cursor: pointer;
+}
+#content_container{
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 /* HEADER SECTION */
 
