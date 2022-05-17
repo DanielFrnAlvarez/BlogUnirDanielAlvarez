@@ -28,11 +28,10 @@ let load_content = () => {
 
                 let headers = document.getElementById('headers_container');
                 headers.innerHTML = request.getAllResponseHeaders().transforSpecialChar();
-            
-                let request_status = document.getElementById('status_container');
-                request_status.innerHTML = request.status + "<br/>" + request.statusText;
             }
         }
+        let request_status = document.getElementById('status_container');
+        request_status.innerHTML = request.status + "<br/>" + request.statusText;
     };
     request.open(method, url, true);
     request.send(null);
